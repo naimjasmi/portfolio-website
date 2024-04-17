@@ -38,7 +38,7 @@ const ProjectData = [
         title: "HTML Portfolio Website",
         description: "Project description",
         image: "/images/projects/4.jpg",
-        tag: ["All", "Web"],
+        tag: ["All", "Mobile"],
         gitUrl: "/",
         previewUrl: "/",
 
@@ -48,7 +48,7 @@ const ProjectData = [
         title: "HTML Portfolio Website",
         description: "Project description",
         image: "/images/projects/5.jpg",
-        tag: ["All", "Web"],
+        tag: ["All", "Mobile"],
         gitUrl: "/",
         previewUrl: "/",
 
@@ -71,6 +71,10 @@ const ProjectSection = () => {
     const handleTagChange = (newTag) => {
         setTag(newTag);
     };
+
+    const filteredProjects = ProjectData.filter((project) => 
+        project.tag.includes(tag)
+    );
 
     return (
         <>
@@ -95,7 +99,7 @@ const ProjectSection = () => {
                 />
             </div>
             <div className="grid md:grid-cols-3 gap-8 md:gap-12">
-                {ProjectData.map((project) =>
+                {filteredProjects.map((project) =>
                     <ProjectCard
                         key={project.id}
                         title={project.title}
