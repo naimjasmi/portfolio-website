@@ -24,7 +24,7 @@ const ResumeModal = ({ isOpen, onRequestClose, resumeUrl }) => {
         <iframe
           src={resumeUrl}
           width="100%"
-          height="800px"
+          height="600px"
           className="border-none"
         />
       </div>
