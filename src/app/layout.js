@@ -1,3 +1,4 @@
+// src/app/layout.js
 import { Inter } from "next/font/google";
 import "./globals.css";
 import HeroSection from "./components/HeroSection";
@@ -12,7 +13,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body id="__next" className={inter.className}>
         {children}
       </body>
     </html>
