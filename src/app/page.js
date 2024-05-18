@@ -4,6 +4,8 @@ import Navbar from "./components/Navbar";
 import AboutSection from "./components/AboutSection";
 import ProjectSection from "./components/ProjectSection";
 import AchievementSection from "./components/Achievements";
+import Footer from "./components/Footer";
+
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col bg-[#121212]">
@@ -15,6 +17,7 @@ export default function Home() {
         <ProjectSection />
 
       </div>
+      <Footer />
     </main>
   );
 }
