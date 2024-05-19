@@ -7,8 +7,8 @@ import TabButton from "./TabButton";
 const TAB_DATA = [
     {
         title: "Skills",
-        id:"skills",
-        content:(
+        id: "skills",
+        content: (
             <ul className="list-disc pl-2">
                 <li>HTML</li>
                 <li>JavaScript</li>
@@ -19,20 +19,21 @@ const TAB_DATA = [
     },
     {
         title: "Education",
-        id:"education",
-        content:(
+        id: "education",
+        content: (
             <ul className="list-disc pl-2">
-                <li>UiTM Arau, Perlis</li>
-                <li>UiTM Jasin, Melaka</li>
+                <li>Diploma in Computer Science, UiTM Arau, Perlis</li>
+                <li>Bachelor of Computer Science (Hons), UiTM Jasin, Melaka</li>
             </ul>
         )
     },
+
     {
         title: "Certifications",
-        id:"certifications",
-        content:(
+        id: "certifications",
+        content: (
             <ul className="list-disc pl-2">
-                <li>Diploma in Science Computer</li>
+                <li>Diploma in Computer Science</li>
                 <li>Bachelor of Computer Science Hons.</li>
                 <li>Vice Chancellor Award</li>
             </ul>
@@ -56,15 +57,15 @@ const AboutSection = () => {
                 <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
                     <h2 className="text-4xl font-bold text-white mb-4">About me</h2>
                     <p className="text-base md:text-lg">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea comm
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                        accusantium doloremque laudantium, totam rem aperiam, eaque ip
-                        quae ab illo inventore veritatis et quasi architecto beatae vit
-                        dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
-                        aspernatur aut odit aut fugit, sed quia consequuntur magni dolo
-                        sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum qui
+                        I am a 23-year-old Malaysian, born on April 15, 2001, in Teluk Intan, Perak. My passion lies in art and digital
+                        drawing, and I am an enthusiastic learner, constantly expanding my skills in various areas of digital design and development.
+                        Currently, I am delving deeper into Next.js, React.js, Figma, and Adobe Photoshop to enhance my proficiency in web development
+                        and UI/UX design.
+                        <br /><br />
+                        My commitment to learning and growing drives me to take on new challenges and explore innovative solutions in the realm of digital
+                        design. I am always eager to collaborate with like-minded individuals and teams to create impactful and visually appealing digital experiences.
                     </p>
+
                     <div className="flex flex-row justify-start mt-8">
                         <TabButton
                             selectTab={() => handleTabChange("skills")}
@@ -90,7 +91,7 @@ const AboutSection = () => {
                             Certifications{" "}
                         </TabButton>
                     </div>
-                    <div className="mt-8">{TAB_DATA.find((t) => t.id ===tab).content} </div>
+                    <div className="mt-8">{TAB_DATA.find((t) => t.id === tab).content} </div>
                 </div>
             </div>
         </section>
