@@ -7,81 +7,91 @@ import { motion, useInView } from "framer-motion";
 const ProjectData = [
     {
         id: 1,
-        title: "HTML Portfolio Website",
+        title: "NextJS Portfolio Website",
         description: "Project description",
-        image: "/images/projects/1.jpg",
+        image: "/images/webs/web1.png",
         tag: ["All", "Web"],
         gitUrl: "/",
-        previewUrl: "/",
+        previewUrl: "/images/webs/web1.png",
     },
     {
         id: 2,
-        title: "HTML Portfolio Website",
+        title: "??",
         description: "Project description",
         image: "/images/arts/art1.jpg",
-        tag: ["All", "Web"],
+        tag: ["All", "Artworks"],
         gitUrl: "/",
-        previewUrl: "/",
+        previewUrl: "/images/arts/art1.jpg",
 
     },
     {
         id: 3,
-        title: "HTML Portfolio Website",
+        title: "Wednesday Addams",
         description: "Project description",
         image: "/images/arts/art2.jpg",
-        tag: ["All", "Web"],
+        tag: ["All", "Artworks"],
         gitUrl: "/",
-        previewUrl: "/",
+        previewUrl: "/images/arts/art2.jpg",
 
     },
     {
         id: 4,
-        title: "HTML Portfolio Website",
+        title: "Me",
         description: "Project description",
         image: "/images/arts/art3.jpg",
-        tag: ["All", "Mobile"],
+        tag: ["All", "Artworks"],
         gitUrl: "/",
-        previewUrl: "/",
+        previewUrl: "/images/arts/art3.jpg",
 
     },
     {
         id: 5,
-        title: "HTML Portfolio Website",
+        title: "My deceased pet",
         description: "Project description",
         image: "/images/arts/art5.jpg",
-        tag: ["All", "Web"],
+        tag: ["All", "Artworks"],
         gitUrl: "/",
-        previewUrl: "/",
+        previewUrl: "/images/arts/art5.jpg",
 
     },
     {
       id: 6,
-      title: "HTML Portfolio Website",
+      title: "First Art Commission",
       description: "Project description",
       image: "/images/arts/art6.jpg",
-      tag: ["All", "Web"],
+      tag: ["All", "Artworks"],
       gitUrl: "/",
-      previewUrl: "/",
+      previewUrl: "/images/arts/art6.jpg",
 
   },
   {
     id: 7,
-    title: "HTML Portfolio Website",
+    title: "Reference from Pinterest",
     description: "Project description",
     image: "/images/arts/art7.jpg",
-    tag: ["All", "Web"],
+    tag: ["All", "Artworks"],
     gitUrl: "/",
-    previewUrl: "/",
+    previewUrl: "/images/arts/art7.jpg",
 
 },
 {
   id: 8,
-  title: "HTML Portfolio Website",
+  title: "Reference from Pinterest2",
   description: "Project description",
   image: "/images/arts/art8.jpg",
-  tag: ["All", "Web"],
+  tag: ["All", "Artworks"],
   gitUrl: "/",
-  previewUrl: "/",
+  previewUrl: "/images/arts/art8.jpg",
+
+},
+{
+  id: 9,
+  title: "Hand-drawn Jungkook",
+  description: "Project description",
+  image: "/images/arts/art9.jpeg",
+  tag: ["All", "Artworks"],
+  gitUrl: "/",
+  previewUrl: "/images/arts/art9.jpeg",
 
 },
 
@@ -122,8 +132,8 @@ const ProjectSection = () => {
           />
           <ProjectTag
             onClick={handleTagChange}
-            name="Mobile"
-            isSelected={tag === "Mobile"}
+            name="Artworks"
+            isSelected={tag === "Artworks"}
           />
         </div>
         <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
