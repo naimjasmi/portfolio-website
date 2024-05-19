@@ -18,7 +18,7 @@ const ProjectData = [
         id: 2,
         title: "HTML Portfolio Website",
         description: "Project description",
-        image: "/images/projects/2.jpg",
+        image: "/images/arts/art1.jpg",
         tag: ["All", "Web"],
         gitUrl: "/",
         previewUrl: "/",
@@ -28,7 +28,7 @@ const ProjectData = [
         id: 3,
         title: "HTML Portfolio Website",
         description: "Project description",
-        image: "/images/projects/3.jpg",
+        image: "/images/arts/art2.jpg",
         tag: ["All", "Web"],
         gitUrl: "/",
         previewUrl: "/",
@@ -38,7 +38,7 @@ const ProjectData = [
         id: 4,
         title: "HTML Portfolio Website",
         description: "Project description",
-        image: "/images/projects/4.jpg",
+        image: "/images/arts/art3.jpg",
         tag: ["All", "Mobile"],
         gitUrl: "/",
         previewUrl: "/",
@@ -47,23 +47,43 @@ const ProjectData = [
     {
         id: 5,
         title: "HTML Portfolio Website",
-        description: "Project descriptions",
-        image: "/images/projects/5.jpg",
-        tag: ["All", "Mobile"],
-        gitUrl: "/",
-        previewUrl: "/",
-
-    },
-    {
-        id: 6,
-        title: "HTML Portfolio Website",
         description: "Project description",
-        image: "/images/projects/6.jpg",
+        image: "/images/arts/art5.jpg",
         tag: ["All", "Web"],
         gitUrl: "/",
         previewUrl: "/",
 
     },
+    {
+      id: 6,
+      title: "HTML Portfolio Website",
+      description: "Project description",
+      image: "/images/arts/art6.jpg",
+      tag: ["All", "Web"],
+      gitUrl: "/",
+      previewUrl: "/",
+
+  },
+  {
+    id: 7,
+    title: "HTML Portfolio Website",
+    description: "Project description",
+    image: "/images/arts/art7.jpg",
+    tag: ["All", "Web"],
+    gitUrl: "/",
+    previewUrl: "/",
+
+},
+{
+  id: 8,
+  title: "HTML Portfolio Website",
+  description: "Project description",
+  image: "/images/arts/art8.jpg",
+  tag: ["All", "Web"],
+  gitUrl: "/",
+  previewUrl: "/",
+
+},
 
 ]
 const ProjectSection = () => {

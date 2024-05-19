@@ -42,10 +42,13 @@ const HeroSection = () => {
               repeat={Infinity}
             />
           </h1>
-          <p className="text-[#ADB7BE] text-base sm:text-lg text-lg mb-6 lg:text-xl">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu
-            nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          <p className="text-[#ADB7BE] text-base sm:text-lg lg:text-xl mb-6">
+            I am a 23-year-old Malaysian with a passion for creative thinking and digital design.
+            Currently, I am expanding my skills in website design, UI/UX, and graphic design. My journey
+            involves constantly learning and embracing new challenges to create innovative and user-friendly
+            digital experiences.
           </p>
+
           <div>
             <Link
               href="/#contact"
