@@ -11,7 +11,7 @@ const ProjectData = [
         description: "Project description",
         image: "/images/webs/web1.png",
         tag: ["All", "Web"],
-        gitUrl: "/",
+        gitUrl: "https://portfolio-website-peach-six.vercel.app",
         previewUrl: "/images/webs/web1.png",
     },
     {
