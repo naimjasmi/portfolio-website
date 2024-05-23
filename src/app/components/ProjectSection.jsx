@@ -34,6 +34,16 @@ const ProjectData = [
   },
   {
     id: 4,
+    title: "FER System For School Counsellor using CNN",
+    description: "This final year project is a real-time facial emotion recognition system using CNNs, TensorFlow, Keras, Flask, and Bootstrap.",
+    image: "/images/webs/web4.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/naimjasmi/FERFYP",
+    previewUrl: "/images/webs/web4prev.mp4",
+
+  },
+  {
+    id: 5,
     title: "??",
     description: "Her eyes vacant, her soul drained.",
     image: "/images/arts/art1.jpg",
@@ -43,7 +53,7 @@ const ProjectData = [
 
   },
   {
-    id: 5,
+    id: 6,
     title: "Wednesday Addams",
     description: "Gothic charm in a glance.",
     image: "/images/arts/art2.jpg",
@@ -53,7 +63,7 @@ const ProjectData = [
 
   },
   {
-    id: 6,
+    id: 7,
     title: "Me",
     description: "Eyes closed, he rests amidst blooms, lost in tranquility.",
     image: "/images/arts/art3.jpg",
@@ -63,7 +73,7 @@ const ProjectData = [
 
   },
   {
-    id: 7,
+    id: 8,
     title: "My deceased pet",
     description: "Memorializing the beloved: A somber depiction of a cat peacefully at rest",
     image: "/images/arts/art5.jpg",
@@ -73,7 +83,7 @@ const ProjectData = [
 
   },
   {
-    id: 8,
+    id: 9,
     title: "First Art Commission",
     description: "Holding a bouquet of flowers.",
     image: "/images/arts/art6.jpg",
@@ -83,7 +93,7 @@ const ProjectData = [
 
   },
   {
-    id: 9,
+    id: 10,
     title: "LRT",
     description: "Caught in a moment: Engrossed in her book, yet sharing a relaxed gaze.",
     image: "/images/arts/art7.jpg",
@@ -93,7 +103,7 @@ const ProjectData = [
 
   },
   {
-    id: 10,
+    id: 11,
     title: "Reference from Pinterest",
     description: "Inspired by a Pinterest girl",
     image: "/images/arts/art8.jpg",
@@ -103,7 +113,7 @@ const ProjectData = [
 
   },
   {
-    id: 11,
+    id: 12,
     title: "Hand-drawn Jungkook",
     description: "Did a li77le something",
     image: "/images/arts/art9.jpeg",
