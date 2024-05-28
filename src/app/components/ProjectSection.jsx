@@ -44,6 +44,16 @@ const ProjectData = [
   },
   {
     id: 5,
+    title: "CAD Login Figma Mock-Up",
+    description: "Clean login design for an emergency CAD system with username, password, Forgot Password link, and role selection.",
+    image: "/images/webs/web5.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://www.figma.com/community/file/1377134598040698292/cad-login",
+    previewUrl: "/images/webs/web5.png",
+
+  },
+  {
+    id: 6,
     title: "??",
     description: "Her eyes vacant, her soul drained.",
     image: "/images/arts/art1.jpg",
@@ -53,7 +63,7 @@ const ProjectData = [
 
   },
   {
-    id: 6,
+    id: 7,
     title: "Wednesday Addams",
     description: "Gothic charm in a glance.",
     image: "/images/arts/art2.jpg",
@@ -63,7 +73,7 @@ const ProjectData = [
 
   },
   {
-    id: 7,
+    id: 8,
     title: "Me",
     description: "Eyes closed, he rests amidst blooms, lost in tranquility.",
     image: "/images/arts/art3.jpg",
@@ -73,7 +83,7 @@ const ProjectData = [
 
   },
   {
-    id: 8,
+    id: 9,
     title: "My deceased pet",
     description: "Memorializing the beloved: A somber depiction of a cat peacefully at rest",
     image: "/images/arts/art5.jpg",
@@ -83,7 +93,7 @@ const ProjectData = [
 
   },
   {
-    id: 9,
+    id: 10,
     title: "First Art Commission",
     description: "Holding a bouquet of flowers.",
     image: "/images/arts/art6.jpg",
@@ -93,7 +103,7 @@ const ProjectData = [
 
   },
   {
-    id: 10,
+    id: 11,
     title: "LRT",
     description: "Caught in a moment: Engrossed in her book, yet sharing a relaxed gaze.",
     image: "/images/arts/art7.jpg",
@@ -103,7 +113,7 @@ const ProjectData = [
 
   },
   {
-    id: 11,
+    id: 12,
     title: "Reference from Pinterest",
     description: "Inspired by a Pinterest girl",
     image: "/images/arts/art8.jpg",
@@ -113,7 +123,7 @@ const ProjectData = [
 
   },
   {
-    id: 12,
+    id: 13,
     title: "Hand-drawn Jungkook",
     description: "Did a li77le something",
     image: "/images/arts/art9.jpeg",
