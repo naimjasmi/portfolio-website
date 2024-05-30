@@ -65,7 +65,7 @@ const ProjectData = [
   {
     id: 7,
     title: "Wednesday Addams",
-    description: "Gothic charm in a glance.",
+    description: "Wednesday Addams from Wednesday",
     image: "/images/arts/art2.jpg",
     tag: ["All", "Artworks"],
     gitUrl: "/",
