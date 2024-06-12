@@ -48,12 +48,21 @@ const ProjectData = [
     description: "Clean login design for an emergency CAD system with username, password, Forgot Password link, and role selection.",
     image: "/images/webs/web5.png",
     tag: ["All", "Web"],
-    gitUrl: "https://www.figma.com/community/file/1377134598040698292/cad-login",
+    gitUrl: "https://www.figma.com/proto/d6NUzwJO8Dt5a6YGHF6VaQ/CAD-Mock-Up?node-id=0-1&t=Iv9Qxzq6HIMJQAzd-1",
     previewUrl: "/images/webs/web5.png",
 
   },
   {
     id: 6,
+    title: "Image Carousel Slider",
+    description: "This Figma design features a modern, interactive image carousel for showcasing diverse content. Users can swipe or drag to navigate.",
+    image: "/images/webs/web6.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://www.figma.com/proto/jn0GNkcOkZwehuDqOVsCYu/Untitled?node-id=0-1&t=SiRSYFE5lUNNlIDo-1",
+    previewUrl: "/images/webs/web6.png",
+  },
+  {
+    id: 7,
     title: "??",
     description: "Her eyes vacant, her soul drained.",
     image: "/images/arts/art1.jpg",
@@ -63,7 +72,7 @@ const ProjectData = [
 
   },
   {
-    id: 7,
+    id: 8,
     title: "Wednesday Addams",
     description: "Wednesday Addams from Wednesday",
     image: "/images/arts/art2.jpg",
@@ -73,7 +82,7 @@ const ProjectData = [
 
   },
   {
-    id: 8,
+    id: 9,
     title: "Me",
     description: "Eyes closed, he rests amidst blooms, lost in tranquility.",
     image: "/images/arts/art3.jpg",
@@ -83,7 +92,7 @@ const ProjectData = [
 
   },
   {
-    id: 9,
+    id: 10,
     title: "My deceased pet",
     description: "Memorializing the beloved: A somber depiction of a cat peacefully at rest",
     image: "/images/arts/art5.jpg",
@@ -93,7 +102,7 @@ const ProjectData = [
 
   },
   {
-    id: 10,
+    id: 11,
     title: "First Art Commission",
     description: "Holding a bouquet of flowers.",
     image: "/images/arts/art6.jpg",
@@ -103,7 +112,7 @@ const ProjectData = [
 
   },
   {
-    id: 11,
+    id: 12,
     title: "LRT",
     description: "Caught in a moment: Engrossed in her book, yet sharing a relaxed gaze.",
     image: "/images/arts/art7.jpg",
@@ -113,7 +122,7 @@ const ProjectData = [
 
   },
   {
-    id: 12,
+    id: 13,
     title: "Reference from Pinterest",
     description: "Inspired by a Pinterest girl",
     image: "/images/arts/art8.jpg",
@@ -123,7 +132,7 @@ const ProjectData = [
 
   },
   {
-    id: 13,
+    id: 14,
     title: "Hand-drawn Jungkook",
     description: "Did a li77le something",
     image: "/images/arts/art9.jpeg",
