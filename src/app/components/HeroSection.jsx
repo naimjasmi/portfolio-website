@@ -44,7 +44,7 @@ const HeroSection = () => {
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg lg:text-xl mb-6">
             I am a 23-year-old Malaysian with a passion for creative thinking and digital design.
-            Currently, I am expanding my skills in website design, UI/UX, Mockups and graphic design. My journey
+            Currently, I am expanding my skills in website design, UI/UX, Mock-ups and graphic design. My journey
             involves constantly learning and embracing new challenges to create innovative and user-friendly
             digital experiences.
           </p>
