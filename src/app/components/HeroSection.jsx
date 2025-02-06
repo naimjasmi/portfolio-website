@@ -30,9 +30,9 @@ const HeroSection = () => {
               sequence={[
                 'Naim Jasmi',
                 3000,
-                'Computer Science student',
+                'Graduated Computer Science student',
                 3000,
-                'UI/UX Developer',
+                'UI/UX Designer',
                 3000,
                 'Web Developer',
                 3000,
@@ -50,12 +50,12 @@ const HeroSection = () => {
           </p>
 
           <div>
-            <Link
+            {/* <Link
               href="/#contact"
               className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white"
             >
               Hire Me
-            </Link>
+            </Link> */}
             <button
               onClick={openModal}
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
@@ -86,7 +86,7 @@ const HeroSection = () => {
       <ResumeModal
         isOpen={isModalOpen}
         onRequestClose={closeModal}
-        resumeUrl="/RESUME_MOHAMAD NAIM BIN JASMI.pdf"
+        resumeUrl="/Mohamad Naim Bin Jasmi - RESUME.pdf"
       />
     </section>
   );

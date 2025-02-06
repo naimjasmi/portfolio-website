@@ -28,7 +28,7 @@ const ProjectData = [
     title: "Peru ERS Citizen-App Mock-Up",
     description: "Mobile app mock-up for Citizen 911 using Canva.",
     image: "/images/webs/web3.png",
-    tag: ["All", "Web"],
+    tag: ["All", "Mobile"],
     gitUrl: "https://www.canva.com/design/DAF_L_BZLeg/PsfXru7WQj7dm8nDE9NzCQ/edit?utm_content=DAF_L_BZLeg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
     previewUrl: "/images/webs/web3.png",
   },
@@ -141,6 +141,26 @@ const ProjectData = [
     previewUrl: "/images/arts/art9.jpeg",
 
   },
+  {
+    id: 15,
+    title: "Chatbot Admin Web",
+    description: "A streamlined and intuitive Chatbot Admin Dashboard design.",
+    image: "/images/projects/project7.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://www.figma.com/design/Bhay8pGeUSgFif26WH9fdl/Interactive-Admin-Hub-with-Chatbot-and-Query-Management-(Community)?node-id=0-1&t=HFuWSryBbSnilS3S-1",
+    previewUrl: "/images/projects/project7.png",
+
+  },
+  {
+    id: 16,
+    title: "Mobile Login Screen",
+    description: "A clean, modern mobile login screen with a user-friendly interface.",
+    image: "/images/projects/project8.png",
+    tag: ["All", "Mobile"],
+    gitUrl: "https://www.figma.com/design/Bhay8pGeUSgFif26WH9fdl/Interactive-Admin-Hub-with-Chatbot-and-Query-Management-(Community)?node-id=0-1&t=HFuWSryBbSnilS3S-1",
+    previewUrl: "/images/projects/project8.png",
+
+  },
 
 ]
 const ProjectSection = () => {
@@ -181,6 +201,11 @@ const ProjectSection = () => {
           onClick={handleTagChange}
           name="Artworks"
           isSelected={tag === "Artworks"}
+        />
+        <ProjectTag
+          onClick={handleTagChange}
+          name="Mobile"
+          isSelected={tag === "Mobile"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
