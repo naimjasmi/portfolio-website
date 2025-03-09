@@ -161,6 +161,16 @@ const ProjectData = [
     previewUrl: "/images/projects/project8.png",
 
   },
+  {
+    id: 17,
+    title: "Eid Money Packet Design",
+    description: "A clean, modern Eid Money Pakcet Design",
+    image: "/images/design/design1.png",
+    tag: ["All"],
+    gitUrl:"/",
+    previewUrl: "/images/design/moneypacket.gif",
+
+  },
 
 ]
 const ProjectSection = () => {

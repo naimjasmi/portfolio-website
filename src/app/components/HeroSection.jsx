@@ -86,7 +86,7 @@ const HeroSection = () => {
       <ResumeModal
         isOpen={isModalOpen}
         onRequestClose={closeModal}
-        resumeUrl="/Mohamad Naim Bin Jasmi - RESUME.pdf"
+        resumeUrl="/Mohamad_Naim_Resume.pdf"
       />
     </section>
   );
