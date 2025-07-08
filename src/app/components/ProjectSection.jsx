@@ -63,8 +63,8 @@ const ProjectData = [
   },
   {
     id: 7,
-    title: "??",
-    description: "Her eyes vacant, her soul drained.",
+    title: "Digital Art",
+    description: "Girl lying motionless, conveying emotional stillness.",
     image: "/images/arts/art1.jpg",
     tag: ["All", "Artworks"],
     gitUrl: "/",
@@ -83,8 +83,8 @@ const ProjectData = [
   },
   {
     id: 9,
-    title: "Me",
-    description: "Eyes closed, he rests amidst blooms, lost in tranquility.",
+    title: "Floral Rest",
+    description: "Digital sketch of a man seated in a flower, evoking calm and reflection.",
     image: "/images/arts/art3.jpg",
     tag: ["All", "Artworks"],
     gitUrl: "/",
@@ -94,7 +94,7 @@ const ProjectData = [
   {
     id: 10,
     title: "My deceased pet",
-    description: "Memorializing the beloved: A somber depiction of a cat peacefully at rest",
+    description: "Memorializing the beloved",
     image: "/images/arts/art5.jpg",
     tag: ["All", "Artworks"],
     gitUrl: "/",
@@ -104,7 +104,7 @@ const ProjectData = [
   {
     id: 11,
     title: "First Art Commission",
-    description: "Holding a bouquet of flowers.",
+    description: "A Girl holding a bouquet of flowers.",
     image: "/images/arts/art6.jpg",
     tag: ["All", "Artworks"],
     gitUrl: "/",
@@ -113,8 +113,8 @@ const ProjectData = [
   },
   {
     id: 12,
-    title: "LRT",
-    description: "Caught in a moment: Engrossed in her book, yet sharing a relaxed gaze.",
+    title: "LRT sketch",
+    description: "Digital sketch of a girl on the LRT, focusing on mood and urban stillness.",
     image: "/images/arts/art7.jpg",
     tag: ["All", "Artworks"],
     gitUrl: "/",
@@ -134,7 +134,7 @@ const ProjectData = [
   {
     id: 14,
     title: "Hand-drawn Jungkook",
-    description: "Did a li77le something",
+    description: "Handrawn Sketch",
     image: "/images/arts/art9.jpeg",
     tag: ["All", "Artworks"],
     gitUrl: "/",
@@ -164,11 +164,21 @@ const ProjectData = [
   {
     id: 17,
     title: "Eid Money Packet Design",
-    description: "A clean, modern Eid Money Pakcet Design",
+    description: "A clean, modern Eid Money Packet Design",
     image: "/images/design/design1.png",
     tag: ["All"],
     gitUrl:"/",
     previewUrl: "/images/design/moneypacket.gif",
+
+  },
+  {
+    id: 18,
+    title: "Interactive Product Showcase Design",
+    description: "Prototype of Interactive Product Showcase Web Design",
+    image: "/images/webs/web7.png",
+    tag: ["All", "Web"],
+    gitUrl:"https://www.figma.com/community/file/1496029435347948587/interactive-product-showcase-single-page-layout",
+    previewUrl: "/images/webs/web7.png",
 
   },
 

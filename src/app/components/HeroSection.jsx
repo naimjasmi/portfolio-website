@@ -43,7 +43,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg lg:text-xl mb-6">
-            I am a 23-year-old Malaysian with a passion for creative thinking and digital design.
+            I am a 24-year-old Malaysian with a passion for creative thinking and digital design.
             Currently, I am expanding my skills in website design, UI/UX, Mock-ups and graphic design. My journey
             involves constantly learning and embracing new challenges to create innovative and user-friendly
             digital experiences.
@@ -86,7 +86,7 @@ const HeroSection = () => {
       <ResumeModal
         isOpen={isModalOpen}
         onRequestClose={closeModal}
-        resumeUrl="/Mohamad_Naim_Resume.pdf"
+        resumeUrl="/RESUME MOHAMAD NAIM BIN JASMI.pdf"
       />
     </section>
   );

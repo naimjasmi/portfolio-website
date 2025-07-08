@@ -12,7 +12,7 @@ const TAB_DATA = [
             <ul className="list-disc pl-2">
                 <li>HTML</li>
                 <li>JavaScript</li>
-                <li>Python</li>
+                <li>Figma</li>
                 <li>SQL</li>
             </ul>
         )
@@ -57,7 +57,7 @@ const AboutSection = () => {
                 <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
                     <h2 className="text-4xl font-bold text-white mb-4">About me</h2>
                     <p className="text-base md:text-lg">
-                        I am a 23-year-old Malaysian, born on April 15, 2001, in Teluk Intan, Perak. My passion lies in art and digital
+                        I am a 24-year-old Malaysian, born on April 15, 2001, in Teluk Intan, Perak. My passion lies in art and digital
                         drawing, and I am an enthusiastic learner, constantly expanding my skills in various areas of digital design and development.
                         Currently, I am delving deeper into Next.js, React.js, Figma, and Adobe Photoshop to enhance my proficiency in web development
                         and UI/UX design.
