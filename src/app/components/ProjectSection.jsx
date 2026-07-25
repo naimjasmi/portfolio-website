@@ -40,7 +40,6 @@ const ProjectData = [
     tag: ["All", "Web"],
     gitUrl: "https://github.com/naimjasmi/FERFYP",
     previewUrl: "/images/webs/web4prev.mp4",
-
   },
   {
     id: 5,
@@ -50,7 +49,6 @@ const ProjectData = [
     tag: ["All", "Web"],
     gitUrl: "https://www.figma.com/proto/d6NUzwJO8Dt5a6YGHF6VaQ/CAD-Mock-Up?node-id=0-1&t=Iv9Qxzq6HIMJQAzd-1",
     previewUrl: "/images/webs/web5.png",
-
   },
   {
     id: 6,
@@ -69,7 +67,6 @@ const ProjectData = [
     tag: ["All", "Artworks"],
     gitUrl: "/",
     previewUrl: "/images/arts/art1.jpg",
-
   },
   {
     id: 8,
@@ -79,7 +76,6 @@ const ProjectData = [
     tag: ["All", "Artworks"],
     gitUrl: "/",
     previewUrl: "/images/arts/art2.jpg",
-
   },
   {
     id: 9,
@@ -89,7 +85,6 @@ const ProjectData = [
     tag: ["All", "Artworks"],
     gitUrl: "/",
     previewUrl: "/images/arts/art3.jpg",
-
   },
   {
     id: 10,
@@ -99,7 +94,6 @@ const ProjectData = [
     tag: ["All", "Artworks"],
     gitUrl: "/",
     previewUrl: "/images/arts/art5.jpg",
-
   },
   {
     id: 11,
@@ -109,7 +103,6 @@ const ProjectData = [
     tag: ["All", "Artworks"],
     gitUrl: "/",
     previewUrl: "/images/arts/art6.jpg",
-
   },
   {
     id: 12,
@@ -119,7 +112,6 @@ const ProjectData = [
     tag: ["All", "Artworks"],
     gitUrl: "/",
     previewUrl: "/images/arts/art7.jpg",
-
   },
   {
     id: 13,
@@ -129,7 +121,6 @@ const ProjectData = [
     tag: ["All", "Artworks"],
     gitUrl: "/",
     previewUrl: "/images/arts/art8.jpg",
-
   },
   {
     id: 14,
@@ -139,7 +130,6 @@ const ProjectData = [
     tag: ["All", "Artworks"],
     gitUrl: "/",
     previewUrl: "/images/arts/art9.jpeg",
-
   },
   {
     id: 15,
@@ -149,7 +139,6 @@ const ProjectData = [
     tag: ["All", "Web"],
     gitUrl: "https://www.figma.com/design/Bhay8pGeUSgFif26WH9fdl/Interactive-Admin-Hub-with-Chatbot-and-Query-Management-(Community)?node-id=0-1&t=HFuWSryBbSnilS3S-1",
     previewUrl: "/images/projects/project7.png",
-
   },
   {
     id: 16,
@@ -159,7 +148,6 @@ const ProjectData = [
     tag: ["All", "Mobile"],
     gitUrl: "https://www.figma.com/design/Bhay8pGeUSgFif26WH9fdl/Interactive-Admin-Hub-with-Chatbot-and-Query-Management-(Community)?node-id=0-1&t=HFuWSryBbSnilS3S-1",
     previewUrl: "/images/projects/project8.png",
-
   },
   {
     id: 17,
@@ -167,9 +155,8 @@ const ProjectData = [
     description: "A clean, modern Eid Money Packet Design",
     image: "/images/design/design1.png",
     tag: ["All"],
-    gitUrl:"/",
+    gitUrl: "/",
     previewUrl: "/images/design/moneypacket.gif",
-
   },
   {
     id: 18,
@@ -177,12 +164,11 @@ const ProjectData = [
     description: "Prototype of Interactive Product Showcase Web Design",
     image: "/images/webs/web7.png",
     tag: ["All", "Web"],
-    gitUrl:"https://www.figma.com/community/file/1496029435347948587/interactive-product-showcase-single-page-layout",
+    gitUrl: "https://www.figma.com/community/file/1496029435347948587/interactive-product-showcase-single-page-layout",
     previewUrl: "/images/webs/web7.png",
-
   },
+];
 
-]
 const ProjectSection = () => {
   const [tag, setTag] = useState("All");
   const ref = useRef(null);
@@ -202,11 +188,18 @@ const ProjectSection = () => {
   };
 
   return (
-    <section id="projects">
-      <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
-        My Projects
+    <section id="projects" className="py-8">
+      <p className="text-center text-primary-400 text-sm tracking-widest uppercase mb-2">
+        Portfolio
+      </p>
+      <h2 className="text-center text-4xl font-bold text-white mb-3">
+        My projects
       </h2>
-      <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
+      <p className="text-center text-[#ADB7BE] max-w-xl mx-auto mb-8 md:mb-12">
+        A mix of web apps, mobile mock-ups, and digital art — filter by type to
+        browse.
+      </p>
+      <div className="text-white flex flex-row justify-center items-center flex-wrap gap-2 py-2 mb-8">
         <ProjectTag
           onClick={handleTagChange}
           name="All"
@@ -228,28 +221,33 @@ const ProjectSection = () => {
           isSelected={tag === "Mobile"}
         />
       </div>
-      <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
-        {filteredProjects.map((project, index) => (
-          <motion.li
-            key={index}
-            variants={cardVariants}
-            initial="initial"
-            animate={isInView ? "animate" : "initial"}
-            transition={{ duration: 0.3, delay: index * 0.4 }}
-          >
-            <ProjectCard
+      {filteredProjects.length === 0 ? (
+        <p className="text-center text-[#ADB7BE] py-12">
+          No projects in this category yet.
+        </p>
+      ) : (
+        <ul ref={ref} className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 md:gap-12">
+          {filteredProjects.map((project, index) => (
+            <motion.li
               key={project.id}
-              title={project.title}
-              description={project.description}
-              imgUrl={project.image}
-              gitUrl={project.gitUrl}
-              previewUrl={project.previewUrl}
-            />
-          </motion.li>
-        ))}
-      </ul>
+              variants={cardVariants}
+              initial="initial"
+              animate={isInView ? "animate" : "initial"}
+              transition={{ duration: 0.3, delay: (index % 6) * 0.1 }}
+            >
+              <ProjectCard
+                title={project.title}
+                description={project.description}
+                imgUrl={project.image}
+                gitUrl={project.gitUrl}
+                previewUrl={project.previewUrl}
+              />
+            </motion.li>
+          ))}
+        </ul>
+      )}
     </section>
   );
 };
 
-export default ProjectSection
+export default ProjectSection;
